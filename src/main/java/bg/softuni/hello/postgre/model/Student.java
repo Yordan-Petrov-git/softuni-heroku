@@ -6,10 +6,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
 @Table(name="students")
+@Entity
 public class Student {
-
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private long id;
